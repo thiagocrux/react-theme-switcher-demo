@@ -1,4 +1,4 @@
-import { useEffect, useState, Dispatch, SetStateAction } from "react";
+import { useEffect, useState, Dispatch, SetStateAction } from 'react';
 
 type Response<T> = [T, Dispatch<SetStateAction<T>>];
 
