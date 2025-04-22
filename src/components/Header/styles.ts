@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Header = styled.nav`
   height: 6rem;
@@ -6,5 +6,5 @@ export const Header = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: ${props => props.theme.colors.primary};
+  background-color: ${(props) => props.theme.colors.primary};
 `;

@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { Text } from './styles';
+import { Text } from "./styles";
 
 const TextPlaceholder: React.FC = () => {
   return (
