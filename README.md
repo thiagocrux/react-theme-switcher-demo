@@ -1,46 +1,81 @@
-# Getting Started with Create React App
+# React Theme Switcher POC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A proof of concept of a theme switcher made with React and TypeScript.
 
-## Available Scripts
+## Technologies
 
-In the project directory, you can run:
+These are some of the tecnologies used in this project:
 
-### `npm start`
+- `prettier`: A code formatter.
+- `react`: A JavaScript library for building user interfaces or UI components.
+- `styled-components`: A library for React and React Native that allows you to use component-level styles in your application.
+- `typescript`: A superset of JavaScript that introduces optional static typing, interfaces, enums, and other language features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_For more information about other dependencies, see the `package.json` file._
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/thiagocrux/react-theme-switcher-poc.git
+```
 
-### `npm run build`
+2. Browse to the project folder:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd react-theme-switcher-poc
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `npm run eject`
+## Available scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This section describes the available scripts in the `package.json` file and their functionalities.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- #### `start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  Starts the server in development mode, enabling faster builds and live-reloading.
 
-## Learn More
+  ```bash
+  npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- #### `eject`
+
+  Reveals all the underlying configuration files (Webpack, Babel, etc.) giving you full control, but it's a one-way, advanced operation.
+
+  ```bash
+  npm eject
+  ```
+
+### Production
+
+- #### `build`
+
+  Optimizes and bundles your app into a production-ready build folder.
+
+  ```bash
+  npm build
+  ```
+
+### Testing
+
+- #### `test`
+
+  Run the application testing suite.
+
+  ```bash
+  npm test
+  ```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
