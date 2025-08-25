@@ -1,4 +1,4 @@
-# React Theme Switcher POC
+# React Theme Switcher Demo
 
 A theme switcher demo made with React and TypeScript.
 
