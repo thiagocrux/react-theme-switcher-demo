@@ -18,13 +18,13 @@ _For more information about other dependencies, see the `package.json` file._
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/thiagocrux/react-theme-switcher-poc.git
+git clone https://github.com/thiagocrux/react-theme-switcher-demo.git
 ```
 
 2. Browse to the project folder:
 
 ```bash
-cd react-theme-switcher-poc
+cd react-theme-switcher-demo
 ```
 
 3. Install dependencies:
