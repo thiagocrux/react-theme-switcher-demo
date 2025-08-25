@@ -1,6 +1,6 @@
 # React Theme Switcher POC
 
-A proof of concept of a theme switcher made with React and TypeScript.
+A theme switcher demo made with React and TypeScript.
 
 ## Technologies
 
